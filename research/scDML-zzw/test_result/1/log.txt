@@ -1,0 +1,123 @@
+2025-01-16 14:35:17,236 - root - INFO - Create log file....
+2025-01-16 14:35:17,236 - root - INFO - Create scDMLModel Object Done....
+2025-01-16 14:35:17,238 - root - INFO - Running preprocess() function...
+2025-01-16 14:35:17,238 - root - INFO - mode=unsupervised
+2025-01-16 14:35:17,238 - root - INFO - clustering method=louvain
+2025-01-16 14:35:17,239 - root - INFO - resolution=3.0
+2025-01-16 14:35:17,239 - root - INFO - BATCH_key=BATCH
+2025-01-16 14:35:17,239 - root - INFO - Normalize counts per cell(sum=10000.0)
+2025-01-16 14:35:17,290 - root - INFO - Log1p data
+2025-01-16 14:35:17,504 - root - INFO - Select HVG(n_top_genes=1000)
+2025-01-16 14:35:17,912 - root - INFO - Scale batch(scale_value=10.0)
+2025-01-16 14:35:18,019 - root - INFO - Calculate PCA(n_comps=100)
+2025-01-16 14:35:18,548 - root - INFO - Apply louvain clustring(resolution=3.0) initization
+2025-01-16 14:35:18,555 - root - INFO - Number of Cluster =27
+2025-01-16 14:35:18,564 - root - INFO - clusters=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+2025-01-16 14:35:18,572 - root - INFO - Preprocess Dataset Done...
+2025-01-16 14:35:18,599 - root - INFO - mode=unsupervised
+2025-01-16 14:35:18,616 - root - INFO - K_in=5,K_bw=10
+2025-01-16 14:35:18,617 - root - INFO - Calculate similarity of cluster with KNN and MNN
+2025-01-16 14:35:18,617 - root - INFO - appoximate calculate KNN Pair intra batch...
+2025-01-16 14:35:18,619 - root - INFO - Calculate KNN pair intra batch...........
+2025-01-16 14:35:18,619 - root - INFO - K=5
+2025-01-16 14:35:18,619 - root - INFO - metric=cosine
+2025-01-16 14:35:18,620 - root - INFO - Processing datasets: (0, 0) = ("10x 3' v2", "10x 3' v2")
+2025-01-16 14:35:18,648 - root - INFO - There are (6044) KNN pairs when processing (0, 0)=("10x 3' v2", "10x 3' v2")
+2025-01-16 14:35:18,648 - root - INFO - Processing datasets: (1, 1) = ("10x 5' v1", "10x 5' v1")
+2025-01-16 14:35:18,681 - root - INFO - There are (7460) KNN pairs when processing (1, 1)=("10x 5' v1", "10x 5' v1")
+2025-01-16 14:35:18,681 - root - INFO - Processing datasets: (2, 2) = ("10x 5' v2", "10x 5' v2")
+2025-01-16 14:35:18,704 - root - INFO - There are (5266) KNN pairs when processing (2, 2)=("10x 5' v2", "10x 5' v2")
+2025-01-16 14:35:18,705 - root - INFO - scDML finds (18770) KNN pairs in dataset finally
+2025-01-16 14:35:18,709 - root - INFO - appoximate calculate MNN Pair inter batch...
+2025-01-16 14:35:18,710 - root - INFO - Calculate MNN pair inter batch...........
+2025-01-16 14:35:18,710 - root - INFO - K=10
+2025-01-16 14:35:18,710 - root - INFO - metric=cosine
+2025-01-16 14:35:18,710 - root - INFO - Processing datasets: (0, 1) = ("10x 3' v2", "10x 5' v1")
+2025-01-16 14:35:18,742 - root - INFO - There are (8182) MNN pairs when processing (0, 1)=("10x 3' v2", "10x 5' v1")
+2025-01-16 14:35:18,743 - root - INFO - Processing datasets: (0, 2) = ("10x 3' v2", "10x 5' v2")
+2025-01-16 14:35:18,770 - root - INFO - There are (5728) MNN pairs when processing (0, 2)=("10x 3' v2", "10x 5' v2")
+2025-01-16 14:35:18,770 - root - INFO - Processing datasets: (1, 2) = ("10x 5' v1", "10x 5' v2")
+2025-01-16 14:35:18,800 - root - INFO - There are (6612) MNN pairs when processing (1, 2)=("10x 5' v1", "10x 5' v2")
+2025-01-16 14:35:18,801 - root - INFO - scDML finds (20522) MNN pairs in dataset finally
+2025-01-16 14:35:18,806 - root - INFO - Find All Nearest Neighbours Done....
+2025-01-16 14:35:18,806 - root - INFO - calculate similarity matrix between cluster
+2025-01-16 14:35:18,824 - root - INFO - delete inner edge which link same cluster
+2025-01-16 14:35:18,825 - root - INFO - 4850 knn pair in batch link different cluster
+2025-01-16 14:35:18,841 - root - INFO - delete inner edge which link same cluster
+2025-01-16 14:35:18,842 - root - INFO - 9014 mnn pair in batch link different cluster
+2025-01-16 14:35:18,842 - root - INFO - ===================================================================================
+2025-01-16 14:35:18,842 - root - INFO - NN pair ratio(number of MNN pairs/number of KNN pairs)=1.8585567010309278
+2025-01-16 14:35:18,842 - root - INFO - ===================================================================================
+2025-01-16 14:35:18,843 - root - INFO - save cor matrix to file....
+2025-01-16 14:35:18,845 - root - INFO - save nn pair matrix to file
+2025-01-16 14:35:18,845 - root - INFO - Calculate Similarity Matrix Done....
+2025-01-16 14:35:18,847 - root - INFO - scDML merge cluster with rule2....
+2025-01-16 14:35:18,847 - root - INFO - merge_rule2....
+2025-01-16 14:35:18,911 - root - INFO - merging cluster set:[{16, 3, 22, 14}, {0, 2, 7, 19, 20, 21, 23, 26}, {1, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 17, 18, 24, 25}]
+2025-01-16 14:35:18,911 - root - INFO - Build Embedding Net for scDML training
+2025-01-16 14:35:18,915 - root - INFO - EmbeddingNet(
+  (actn): ReLU()
+  (fc): Sequential(
+    (0): Linear(in_features=1000, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=32, bias=True)
+  )
+)
+2025-01-16 14:35:18,916 - root - INFO - Build Embedding Net Done...
+2025-01-16 14:35:18,916 - root - INFO - train scDML(expect_num_cluster=3) with Embedding Net
+2025-01-16 14:35:18,916 - root - INFO - expect_num_cluster=3
+2025-01-16 14:35:18,917 - root - INFO - using CPU to train model
+2025-01-16 14:35:19,364 - root - INFO - use euclidean distance and hard triplet to train model
+2025-01-16 14:35:19,365 - root - INFO - not use earlystopping!!!!
+2025-01-16 14:35:19,434 - root - INFO - epoch=1,number_hard_triplet=153155
+2025-01-16 14:35:19,485 - root - INFO - epoch=2,number_hard_triplet=31394
+2025-01-16 14:35:19,535 - root - INFO - epoch=3,number_hard_triplet=21934
+2025-01-16 14:35:19,600 - root - INFO - epoch=4,number_hard_triplet=7852
+2025-01-16 14:35:19,650 - root - INFO - epoch=5,number_hard_triplet=4382
+2025-01-16 14:35:19,702 - root - INFO - epoch=6,number_hard_triplet=2020
+2025-01-16 14:35:19,761 - root - INFO - epoch=7,number_hard_triplet=2880
+2025-01-16 14:35:19,818 - root - INFO - epoch=8,number_hard_triplet=1745
+2025-01-16 14:35:19,873 - root - INFO - epoch=9,number_hard_triplet=825
+2025-01-16 14:35:19,935 - root - INFO - epoch=10,number_hard_triplet=177
+2025-01-16 14:35:19,990 - root - INFO - epoch=11,number_hard_triplet=151
+2025-01-16 14:35:20,043 - root - INFO - epoch=12,number_hard_triplet=533
+2025-01-16 14:35:20,097 - root - INFO - epoch=13,number_hard_triplet=48
+2025-01-16 14:35:20,142 - root - INFO - epoch=14,number_hard_triplet=61
+2025-01-16 14:35:20,185 - root - INFO - epoch=15,number_hard_triplet=740
+2025-01-16 14:35:20,230 - root - INFO - epoch=16,number_hard_triplet=72
+2025-01-16 14:35:20,278 - root - INFO - epoch=17,number_hard_triplet=60
+2025-01-16 14:35:20,322 - root - INFO - epoch=18,number_hard_triplet=315
+2025-01-16 14:35:20,368 - root - INFO - epoch=19,number_hard_triplet=11
+2025-01-16 14:35:20,413 - root - INFO - epoch=20,number_hard_triplet=129
+2025-01-16 14:35:20,459 - root - INFO - epoch=21,number_hard_triplet=10
+2025-01-16 14:35:20,502 - root - INFO - epoch=22,number_hard_triplet=20
+2025-01-16 14:35:20,546 - root - INFO - epoch=23,number_hard_triplet=39
+2025-01-16 14:35:20,589 - root - INFO - epoch=24,number_hard_triplet=120
+2025-01-16 14:35:20,631 - root - INFO - epoch=25,number_hard_triplet=5
+2025-01-16 14:35:20,685 - root - INFO - epoch=26,number_hard_triplet=5
+2025-01-16 14:35:20,729 - root - INFO - epoch=27,number_hard_triplet=3
+2025-01-16 14:35:20,773 - root - INFO - epoch=28,number_hard_triplet=23
+2025-01-16 14:35:20,819 - root - INFO - epoch=29,number_hard_triplet=80
+2025-01-16 14:35:20,862 - root - INFO - epoch=30,number_hard_triplet=9
+2025-01-16 14:35:20,908 - root - INFO - epoch=31,number_hard_triplet=1380
+2025-01-16 14:35:20,951 - root - INFO - epoch=32,number_hard_triplet=594
+2025-01-16 14:35:20,993 - root - INFO - epoch=33,number_hard_triplet=305
+2025-01-16 14:35:21,037 - root - INFO - epoch=34,number_hard_triplet=52
+2025-01-16 14:35:21,083 - root - INFO - epoch=35,number_hard_triplet=217
+2025-01-16 14:35:21,126 - root - INFO - epoch=36,number_hard_triplet=38
+2025-01-16 14:35:21,170 - root - INFO - epoch=37,number_hard_triplet=7
+2025-01-16 14:35:21,214 - root - INFO - epoch=38,number_hard_triplet=6
+2025-01-16 14:35:21,258 - root - INFO - epoch=39,number_hard_triplet=3
+2025-01-16 14:35:21,302 - root - INFO - epoch=40,number_hard_triplet=14
+2025-01-16 14:35:21,344 - root - INFO - epoch=41,number_hard_triplet=8
+2025-01-16 14:35:21,385 - root - INFO - epoch=42,number_hard_triplet=4
+2025-01-16 14:35:21,428 - root - INFO - epoch=43,number_hard_triplet=154
+2025-01-16 14:35:21,473 - root - INFO - epoch=44,number_hard_triplet=50
+2025-01-16 14:35:21,516 - root - INFO - epoch=45,number_hard_triplet=0
+2025-01-16 14:35:21,559 - root - INFO - epoch=46,number_hard_triplet=3
+2025-01-16 14:35:21,604 - root - INFO - epoch=47,number_hard_triplet=8
+2025-01-16 14:35:21,647 - root - INFO - epoch=48,number_hard_triplet=7
+2025-01-16 14:35:21,693 - root - INFO - epoch=49,number_hard_triplet=211
+2025-01-16 14:35:21,735 - root - INFO - epoch=50,number_hard_triplet=7
+2025-01-16 14:35:21,735 - root - INFO - scDML training done....
+2025-01-16 14:35:21,736 - root - INFO - extract embedding for dataset with trained network

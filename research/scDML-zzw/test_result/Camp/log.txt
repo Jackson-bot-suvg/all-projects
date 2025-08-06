@@ -1,0 +1,171 @@
+2025-01-14 15:07:21,010 - root - INFO - Create log file....
+2025-01-14 15:07:21,011 - root - INFO - Create scDMLModel Object Done....
+2025-01-14 15:07:21,013 - root - INFO - Running preprocess() function...
+2025-01-14 15:07:21,014 - root - INFO - mode=unsupervised
+2025-01-14 15:07:21,015 - root - INFO - clustering method=louvain
+2025-01-14 15:07:21,015 - root - INFO - resolution=3.0
+2025-01-14 15:07:21,016 - root - INFO - BATCH_key=BATCH
+2025-01-14 15:07:21,017 - root - INFO - Normalize counts per cell(sum=10000.0)
+2025-01-14 15:07:21,026 - root - INFO - Log1p data
+2025-01-14 15:07:21,089 - root - INFO - Select HVG(n_top_genes=1000)
+2025-01-14 15:07:21,182 - root - INFO - Scale batch(scale_value=10.0)
+2025-01-14 15:07:21,368 - root - INFO - Calculate PCA(n_comps=100)
+2025-01-14 15:07:21,610 - root - INFO - Apply louvain clustring(resolution=3.0) initization
+2025-01-14 15:07:21,614 - root - INFO - Number of Cluster =22
+2025-01-14 15:07:21,617 - root - INFO - clusters=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+2025-01-14 15:07:21,630 - root - INFO - Preprocess Dataset Done...
+2025-01-14 15:07:21,635 - root - INFO - mode=unsupervised
+2025-01-14 15:07:21,645 - root - INFO - K_in=5,K_bw=10
+2025-01-14 15:07:21,652 - root - INFO - Calculate similarity of cluster with KNN and MNN
+2025-01-14 15:07:21,658 - root - INFO - appoximate calculate KNN Pair intra batch...
+2025-01-14 15:07:21,659 - root - INFO - Calculate KNN pair intra batch...........
+2025-01-14 15:07:21,661 - root - INFO - K=5
+2025-01-14 15:07:21,661 - root - INFO - metric=cosine
+2025-01-14 15:07:21,662 - root - INFO - Processing datasets: (0, 0) = (np.int64(0), np.int64(0))
+2025-01-14 15:07:21,666 - root - INFO - There are (400) KNN pairs when processing (0, 0)=(np.int64(0), np.int64(0))
+2025-01-14 15:07:21,667 - root - INFO - Processing datasets: (1, 1) = (np.int64(1), np.int64(1))
+2025-01-14 15:07:21,674 - root - INFO - There are (822) KNN pairs when processing (1, 1)=(np.int64(1), np.int64(1))
+2025-01-14 15:07:21,675 - root - INFO - Processing datasets: (2, 2) = (np.int64(2), np.int64(2))
+2025-01-14 15:07:21,683 - root - INFO - There are (964) KNN pairs when processing (2, 2)=(np.int64(2), np.int64(2))
+2025-01-14 15:07:21,684 - root - INFO - Processing datasets: (3, 3) = (np.int64(3), np.int64(3))
+2025-01-14 15:07:21,689 - root - INFO - There are (464) KNN pairs when processing (3, 3)=(np.int64(3), np.int64(3))
+2025-01-14 15:07:21,690 - root - INFO - Processing datasets: (4, 4) = (np.int64(4), np.int64(4))
+2025-01-14 15:07:21,695 - root - INFO - There are (420) KNN pairs when processing (4, 4)=(np.int64(4), np.int64(4))
+2025-01-14 15:07:21,696 - root - INFO - Processing datasets: (5, 5) = (np.int64(5), np.int64(5))
+2025-01-14 15:07:21,700 - root - INFO - There are (470) KNN pairs when processing (5, 5)=(np.int64(5), np.int64(5))
+2025-01-14 15:07:21,700 - root - INFO - Processing datasets: (6, 6) = (np.int64(6), np.int64(6))
+2025-01-14 15:07:21,708 - root - INFO - There are (1041) KNN pairs when processing (6, 6)=(np.int64(6), np.int64(6))
+2025-01-14 15:07:21,709 - root - INFO - scDML finds (4581) KNN pairs in dataset finally
+2025-01-14 15:07:21,710 - root - INFO - appoximate calculate MNN Pair inter batch...
+2025-01-14 15:07:21,712 - root - INFO - Calculate MNN pair inter batch...........
+2025-01-14 15:07:21,713 - root - INFO - K=10
+2025-01-14 15:07:21,714 - root - INFO - metric=cosine
+2025-01-14 15:07:21,714 - root - INFO - Processing datasets: (0, 1) = (np.int64(0), np.int64(1))
+2025-01-14 15:07:21,719 - root - INFO - There are (1116) MNN pairs when processing (0, 1)=(np.int64(0), np.int64(1))
+2025-01-14 15:07:21,719 - root - INFO - Processing datasets: (0, 2) = (np.int64(0), np.int64(2))
+2025-01-14 15:07:21,726 - root - INFO - There are (1270) MNN pairs when processing (0, 2)=(np.int64(0), np.int64(2))
+2025-01-14 15:07:21,727 - root - INFO - Processing datasets: (0, 3) = (np.int64(0), np.int64(3))
+2025-01-14 15:07:21,732 - root - INFO - There are (1204) MNN pairs when processing (0, 3)=(np.int64(0), np.int64(3))
+2025-01-14 15:07:21,732 - root - INFO - Processing datasets: (0, 4) = (np.int64(0), np.int64(4))
+2025-01-14 15:07:21,737 - root - INFO - There are (1228) MNN pairs when processing (0, 4)=(np.int64(0), np.int64(4))
+2025-01-14 15:07:21,738 - root - INFO - Processing datasets: (0, 5) = (np.int64(0), np.int64(5))
+2025-01-14 15:07:21,743 - root - INFO - There are (1152) MNN pairs when processing (0, 5)=(np.int64(0), np.int64(5))
+2025-01-14 15:07:21,743 - root - INFO - Processing datasets: (0, 6) = (np.int64(0), np.int64(6))
+2025-01-14 15:07:21,750 - root - INFO - There are (1050) MNN pairs when processing (0, 6)=(np.int64(0), np.int64(6))
+2025-01-14 15:07:21,751 - root - INFO - Processing datasets: (1, 2) = (np.int64(1), np.int64(2))
+2025-01-14 15:07:21,757 - root - INFO - There are (1442) MNN pairs when processing (1, 2)=(np.int64(1), np.int64(2))
+2025-01-14 15:07:21,758 - root - INFO - Processing datasets: (1, 3) = (np.int64(1), np.int64(3))
+2025-01-14 15:07:21,763 - root - INFO - There are (1450) MNN pairs when processing (1, 3)=(np.int64(1), np.int64(3))
+2025-01-14 15:07:21,764 - root - INFO - Processing datasets: (1, 4) = (np.int64(1), np.int64(4))
+2025-01-14 15:07:21,770 - root - INFO - There are (1452) MNN pairs when processing (1, 4)=(np.int64(1), np.int64(4))
+2025-01-14 15:07:21,771 - root - INFO - Processing datasets: (1, 5) = (np.int64(1), np.int64(5))
+2025-01-14 15:07:21,777 - root - INFO - There are (1362) MNN pairs when processing (1, 5)=(np.int64(1), np.int64(5))
+2025-01-14 15:07:21,777 - root - INFO - Processing datasets: (1, 6) = (np.int64(1), np.int64(6))
+2025-01-14 15:07:21,783 - root - INFO - There are (1326) MNN pairs when processing (1, 6)=(np.int64(1), np.int64(6))
+2025-01-14 15:07:21,784 - root - INFO - Processing datasets: (2, 3) = (np.int64(2), np.int64(3))
+2025-01-14 15:07:21,790 - root - INFO - There are (1384) MNN pairs when processing (2, 3)=(np.int64(2), np.int64(3))
+2025-01-14 15:07:21,791 - root - INFO - Processing datasets: (2, 4) = (np.int64(2), np.int64(4))
+2025-01-14 15:07:21,797 - root - INFO - There are (1568) MNN pairs when processing (2, 4)=(np.int64(2), np.int64(4))
+2025-01-14 15:07:21,797 - root - INFO - Processing datasets: (2, 5) = (np.int64(2), np.int64(5))
+2025-01-14 15:07:21,804 - root - INFO - There are (1368) MNN pairs when processing (2, 5)=(np.int64(2), np.int64(5))
+2025-01-14 15:07:21,805 - root - INFO - Processing datasets: (2, 6) = (np.int64(2), np.int64(6))
+2025-01-14 15:07:21,812 - root - INFO - There are (1840) MNN pairs when processing (2, 6)=(np.int64(2), np.int64(6))
+2025-01-14 15:07:21,813 - root - INFO - Processing datasets: (3, 4) = (np.int64(3), np.int64(4))
+2025-01-14 15:07:21,817 - root - INFO - There are (1328) MNN pairs when processing (3, 4)=(np.int64(3), np.int64(4))
+2025-01-14 15:07:21,818 - root - INFO - Processing datasets: (3, 5) = (np.int64(3), np.int64(5))
+2025-01-14 15:07:21,823 - root - INFO - There are (1102) MNN pairs when processing (3, 5)=(np.int64(3), np.int64(5))
+2025-01-14 15:07:21,824 - root - INFO - Processing datasets: (3, 6) = (np.int64(3), np.int64(6))
+2025-01-14 15:07:21,830 - root - INFO - There are (1534) MNN pairs when processing (3, 6)=(np.int64(3), np.int64(6))
+2025-01-14 15:07:21,831 - root - INFO - Processing datasets: (4, 5) = (np.int64(4), np.int64(5))
+2025-01-14 15:07:21,836 - root - INFO - There are (1328) MNN pairs when processing (4, 5)=(np.int64(4), np.int64(5))
+2025-01-14 15:07:21,836 - root - INFO - Processing datasets: (4, 6) = (np.int64(4), np.int64(6))
+2025-01-14 15:07:21,843 - root - INFO - There are (1536) MNN pairs when processing (4, 6)=(np.int64(4), np.int64(6))
+2025-01-14 15:07:21,843 - root - INFO - Processing datasets: (5, 6) = (np.int64(5), np.int64(6))
+2025-01-14 15:07:21,849 - root - INFO - There are (1516) MNN pairs when processing (5, 6)=(np.int64(5), np.int64(6))
+2025-01-14 15:07:21,850 - root - INFO - scDML finds (28556) MNN pairs in dataset finally
+2025-01-14 15:07:21,858 - root - INFO - Find All Nearest Neighbours Done....
+2025-01-14 15:07:21,859 - root - INFO - calculate similarity matrix between cluster
+2025-01-14 15:07:21,874 - root - INFO - delete inner edge which link same cluster
+2025-01-14 15:07:21,875 - root - INFO - 1258 knn pair in batch link different cluster
+2025-01-14 15:07:21,891 - root - INFO - delete inner edge which link same cluster
+2025-01-14 15:07:21,892 - root - INFO - 26514 mnn pair in batch link different cluster
+2025-01-14 15:07:21,892 - root - INFO - ===================================================================================
+2025-01-14 15:07:21,893 - root - INFO - NN pair ratio(number of MNN pairs/number of KNN pairs)=21.07631160572337
+2025-01-14 15:07:21,893 - root - INFO - ===================================================================================
+2025-01-14 15:07:21,894 - root - INFO - save cor matrix to file....
+2025-01-14 15:07:21,896 - root - INFO - save nn pair matrix to file
+2025-01-14 15:07:21,896 - root - INFO - Calculate Similarity Matrix Done....
+2025-01-14 15:07:21,898 - root - INFO - scDML merge cluster with rule2....
+2025-01-14 15:07:21,898 - root - INFO - merge_rule2....
+2025-01-14 15:07:21,928 - root - INFO - merging cluster set:[{0}, {1}, {4}, {9}, {10}, {12}, {13}, {16}, {18}, {20}, {5, 14}, {2, 3, 6, 7, 8, 11, 15, 17, 19, 21}]
+2025-01-14 15:07:21,929 - root - INFO - Build Embedding Net for scDML training
+2025-01-14 15:07:21,933 - root - INFO - EmbeddingNet(
+  (actn): ReLU()
+  (fc): Sequential(
+    (0): Linear(in_features=1000, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=32, bias=True)
+  )
+)
+2025-01-14 15:07:21,934 - root - INFO - Build Embedding Net Done...
+2025-01-14 15:07:21,934 - root - INFO - train scDML(expect_num_cluster=12) with Embedding Net
+2025-01-14 15:07:21,934 - root - INFO - expect_num_cluster=12
+2025-01-14 15:07:21,935 - root - INFO - using CPU to train model
+2025-01-14 15:07:22,337 - root - INFO - use euclidean distance and hard triplet to train model
+2025-01-14 15:07:22,337 - root - INFO - not use earlystopping!!!!
+2025-01-14 15:07:22,405 - root - INFO - epoch=1,number_hard_triplet=80686
+2025-01-14 15:07:22,435 - root - INFO - epoch=2,number_hard_triplet=30000
+2025-01-14 15:07:22,465 - root - INFO - epoch=3,number_hard_triplet=9651
+2025-01-14 15:07:22,492 - root - INFO - epoch=4,number_hard_triplet=4707
+2025-01-14 15:07:22,515 - root - INFO - epoch=5,number_hard_triplet=2736
+2025-01-14 15:07:22,541 - root - INFO - epoch=6,number_hard_triplet=3095
+2025-01-14 15:07:22,565 - root - INFO - epoch=7,number_hard_triplet=1674
+2025-01-14 15:07:22,592 - root - INFO - epoch=8,number_hard_triplet=1500
+2025-01-14 15:07:22,617 - root - INFO - epoch=9,number_hard_triplet=1074
+2025-01-14 15:07:22,644 - root - INFO - epoch=10,number_hard_triplet=1198
+2025-01-14 15:07:22,665 - root - INFO - epoch=11,number_hard_triplet=609
+2025-01-14 15:07:22,689 - root - INFO - epoch=12,number_hard_triplet=398
+2025-01-14 15:07:22,709 - root - INFO - epoch=13,number_hard_triplet=879
+2025-01-14 15:07:22,736 - root - INFO - epoch=14,number_hard_triplet=322
+2025-01-14 15:07:22,762 - root - INFO - epoch=15,number_hard_triplet=482
+2025-01-14 15:07:22,781 - root - INFO - epoch=16,number_hard_triplet=532
+2025-01-14 15:07:22,801 - root - INFO - epoch=17,number_hard_triplet=231
+2025-01-14 15:07:22,839 - root - INFO - epoch=18,number_hard_triplet=267
+2025-01-14 15:07:22,857 - root - INFO - epoch=19,number_hard_triplet=192
+2025-01-14 15:07:22,877 - root - INFO - epoch=20,number_hard_triplet=156
+2025-01-14 15:07:22,896 - root - INFO - epoch=21,number_hard_triplet=623
+2025-01-14 15:07:22,915 - root - INFO - epoch=22,number_hard_triplet=75
+2025-01-14 15:07:22,934 - root - INFO - epoch=23,number_hard_triplet=22
+2025-01-14 15:07:22,956 - root - INFO - epoch=24,number_hard_triplet=209
+2025-01-14 15:07:22,988 - root - INFO - epoch=25,number_hard_triplet=103
+2025-01-14 15:07:23,005 - root - INFO - epoch=26,number_hard_triplet=118
+2025-01-14 15:07:23,022 - root - INFO - epoch=27,number_hard_triplet=34
+2025-01-14 15:07:23,040 - root - INFO - epoch=28,number_hard_triplet=28
+2025-01-14 15:07:23,059 - root - INFO - epoch=29,number_hard_triplet=13
+2025-01-14 15:07:23,077 - root - INFO - epoch=30,number_hard_triplet=9
+2025-01-14 15:07:23,096 - root - INFO - epoch=31,number_hard_triplet=95
+2025-01-14 15:07:23,113 - root - INFO - epoch=32,number_hard_triplet=15
+2025-01-14 15:07:23,133 - root - INFO - epoch=33,number_hard_triplet=138
+2025-01-14 15:07:23,154 - root - INFO - epoch=34,number_hard_triplet=11
+2025-01-14 15:07:23,178 - root - INFO - epoch=35,number_hard_triplet=6
+2025-01-14 15:07:23,204 - root - INFO - epoch=36,number_hard_triplet=21
+2025-01-14 15:07:23,228 - root - INFO - epoch=37,number_hard_triplet=110
+2025-01-14 15:07:23,252 - root - INFO - epoch=38,number_hard_triplet=3
+2025-01-14 15:07:23,278 - root - INFO - epoch=39,number_hard_triplet=4
+2025-01-14 15:07:23,304 - root - INFO - epoch=40,number_hard_triplet=22
+2025-01-14 15:07:23,330 - root - INFO - epoch=41,number_hard_triplet=77
+2025-01-14 15:07:23,353 - root - INFO - epoch=42,number_hard_triplet=38
+2025-01-14 15:07:23,378 - root - INFO - epoch=43,number_hard_triplet=7
+2025-01-14 15:07:23,404 - root - INFO - epoch=44,number_hard_triplet=7
+2025-01-14 15:07:23,428 - root - INFO - epoch=45,number_hard_triplet=33
+2025-01-14 15:07:23,447 - root - INFO - epoch=46,number_hard_triplet=245
+2025-01-14 15:07:23,466 - root - INFO - epoch=47,number_hard_triplet=117
+2025-01-14 15:07:23,485 - root - INFO - epoch=48,number_hard_triplet=17
+2025-01-14 15:07:23,504 - root - INFO - epoch=49,number_hard_triplet=44
+2025-01-14 15:07:23,523 - root - INFO - epoch=50,number_hard_triplet=25
+2025-01-14 15:07:23,524 - root - INFO - scDML training done....
+2025-01-14 15:07:23,525 - root - INFO - extract embedding for dataset with trained network
+O - epoch=49,number_hard_triplet=44
+2025-01-14 15:07:23,523 - root - INFO - epoch=50,number_hard_triplet=25
+2025-01-14 15:07:23,524 - root - INFO - scDML training done....
+2025-01-14 15:07:23,525 - root - INFO - extract embedding for dataset with trained network
