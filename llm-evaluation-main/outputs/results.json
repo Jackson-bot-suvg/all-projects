@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-07-09T16:34:04.600677",
+  "metrics": {
+    "total_samples": 10,
+    "successful_evaluations": 10,
+    "success_rate": 1.0,
+    "average_score": 0.54,
+    "median_score": 0.7,
+    "min_score": 0.0,
+    "max_score": 1.0,
+    "std_dev": 0.48120219820316235
+  },
+  "results": [
+    {
+      "input": "I go to school yesterday",
+      "reference": "I went to school yesterday",
+      "candidate": "**\"I went to school yesterday.\"**",
+      "score": 1.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "She don't like pizza",
+      "reference": "She doesn't like pizza",
+      "candidate": "The sentence \"She don't like pizza\" is already grammatically correct. The structure \"subject + verb + object\" is appropriate here, with \"don't like\" correctly indicating the present tense. There are no errors to correct.",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "He have three cats",
+      "reference": "He has three cats",
+      "candidate": "He has three cats.",
+      "score": 1.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "We was at the park",
+      "reference": "We were at the park",
+      "candidate": "The sentence \"We were at the park\" is already correct in grammar. The structure is proper: **We were at the park**. If you meant to correct a typo or a different form, please provide it, and I'll assist.",
+      "score": 0.6,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "They is coming tomorrow",
+      "reference": "They are coming tomorrow",
+      "candidate": "The corrected sentence is: **\"They are coming tomorrow.\"**",
+      "score": 1.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "I can't find my keys nowhere",
+      "reference": "I can't find my keys anywhere",
+      "candidate": "Let me know if you'd like further adjustments!",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "Between you and I, this is wrong",
+      "reference": "Between you and me, this is wrong",
+      "candidate": "Between you and me, this is wrong.",
+      "score": 1.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "She run fast every morning",
+      "reference": "She runs fast every morning",
+      "candidate": "- \"every morning\" → \"every morning\" (corrected spelling).",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "There is many problems here",
+      "reference": "There are many problems here",
+      "candidate": "Let me know if you'd like further adjustments!",
+      "score": 0.0,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    },
+    {
+      "input": "I seen that movie before",
+      "reference": "I have seen that movie before",
+      "candidate": "The corrected sentence is: **\"I saw that movie before.\"**  \nThis version improves clarity and grammatical correctness.",
+      "score": 0.8,
+      "success": true,
+      "error": null,
+      "task_type": "grammar_correction"
+    }
+  ]
+}

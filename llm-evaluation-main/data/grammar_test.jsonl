@@ -1,0 +1,10 @@
+{"input": "I go to school yesterday", "ideal": "I went to school yesterday"}
+{"input": "She don't like pizza", "ideal": "She doesn't like pizza"}
+{"input": "He have three cats", "ideal": "He has three cats"}
+{"input": "We was at the park", "ideal": "We were at the park"}
+{"input": "They is coming tomorrow", "ideal": "They are coming tomorrow"}
+{"input": "I can't find my keys nowhere", "ideal": "I can't find my keys anywhere"}
+{"input": "Between you and I, this is wrong", "ideal": "Between you and me, this is wrong"}
+{"input": "She run fast every morning", "ideal": "She runs fast every morning"}
+{"input": "There is many problems here", "ideal": "There are many problems here"}
+{"input": "I seen that movie before", "ideal": "I have seen that movie before"}

@@ -1,0 +1,10 @@
+requests
+pandas
+matplotlib
+seaborn
+python-dotenv
+tqdm
+streamlit
+plotly
+streamlit-ace
+streamlit-option-menu
